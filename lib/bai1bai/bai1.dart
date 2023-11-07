@@ -15,9 +15,9 @@ bool squareIsWhite(String coordinates) {
 }
 
 void main() {
-  String square1 = "a5"; // Ô đen
-  String square2 = "c6"; // Ô trắng
-  String square3 = "h8"; // Ô đen
+  String square1 = "a5";
+  String square2 = "c6";
+  String square3 = "h8";
 
   bool isSquare1White = squareIsWhite(square1);
   bool isSquare2White = squareIsWhite(square2);
